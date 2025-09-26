@@ -12,7 +12,6 @@
     "start": "strapi start",
     "strapi": "strapi",
     "upgrade": "npx @strapi/upgrade latest",
-	"pg": "^8.16.3",
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "dependencies": {
@@ -23,7 +22,8 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
-    "styled-components": "^6.0.0"
+    "styled-components": "^6.0.0",
+    "pg": "^8.16.3"
   },
   "devDependencies": {
     "@types/node": "^20",
