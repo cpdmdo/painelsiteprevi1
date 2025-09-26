@@ -12,6 +12,7 @@
     "start": "strapi start",
     "strapi": "strapi",
     "upgrade": "npx @strapi/upgrade latest",
+	"pg": "^8.16.3",
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "dependencies": {
